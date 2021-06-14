@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+          <!-- NavBar -->
+          <nav class="navbar navbar-expand-lg navbar-dark  bg-main mynav">
+            <div class="container">
+                <div class=" navbar-brand logo py-4  d-flex">
+                    <a class=" mr-2" href="#"><img src="images/logo.png" alt=""></a>
+                    <div class="logo-title  d-inline-block ">
+                        <a class="text-white lt1" href=""><h6 class="font-weight-bolder mb-1">Weather</h6></a>
+                        <a class="lt2" href=""><p class="mb-0">Tagline goes here</p></a>
+                    </div>
+                </div>
+               
+                <button class="navbar-toggler  text-main  rounded-pill " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class=" nav-item active ">
+                        <a class="" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class=" nav-item">
+                        <a class="" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+          <!--End OF NavBar-->
+
+          <!--Start OF Sec1-->
+          <section class="sec1">
+            <div class="container">
+                <div class="caption position-relative overflow-hidden">
+                    <input type="text" placeholder="Find Your Loaction" class="w-100 rounded-pill bg-main"id="locInput">
+                    <button class="btn  rounded-pill position-absolute">Find</button>
+                </div>
+            </div>
+          </section>
+          <!--End OF Sec1-->
+
+          <!--Start OF Sec2-->
+          <section class="sec2">
+              <div class="container">
+                  <div class="row no-gutters forecast-container rounded-lg overflow-hidden" id="weatherDays">
+
+                  </div>
+              </div>
+          </section>
+          <!-- End Of Sec2 -->
+          <!-- Footer -->
+          <footer class="bg-footer py-5">
+            <div class="container">
+               <div class="row justify-content-between">
+                   <div class="col-lg-8 mb-4">
+                        <div class="caption position-relative ">
+                            <input type="text" placeholder="Enter Your Email To Subscribe" class="form-control rounded-pill bg-main ">
+                            <button class="btn  rounded-pill position-absolute">Subscribe</button>
+                        </div>
+                   </div>
+                   <div class="col-lg-4">
+                    <div class="icons d-flex justify-content-center ">
+                        <div class="icon mr-2 d-flex align-items-center justify-content-center rounded-circle bg-main text-main">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </div>
+                        <div class="icon mr-2 d-flex align-items-center justify-content-center rounded-circle bg-main text-main">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </div>
+                        <div class="icon mr-2 d-flex align-items-center justify-content-center rounded-circle bg-main text-main">
+                            <i class="fab fa-google-plus-g fa-lg"></i>
+                        </div>
+                        <div class="icon mr-2 d-flex align-items-center justify-content-center rounded-circle bg-main text-main">
+                            <i class="fab fa-pinterest-p fa-lg"></i>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <p class="mt-4 mb-0 text-center">Copyright © 2021 Developed By Omar Fayez. All Rights Reserved</p>
+            </div>
+          </footer>
+          
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,199 @@
+.bg-main
+{
+    background-color: #15171f;
+}
+.bg-footer
+{
+    background-color: #262936;
+}
+.text-main
+{
+    color:#009ad8;
+}
+body
+{
+    font-family: "Roboto", "Open Sans";
+    color: #bfc1c8;
+    background-color:  #15171f;
+}
+/* End OF Main */
+
+/* Start NavbAr */
+.mynav .logo-title .lt1
+{
+font-size: 14px;
+}
+.mynav .logo-title .lt2
+{
+font-size: 10px;
+color: #bfc1c8 ;
+}
+.mynav .logo-title a:hover
+{
+    text-decoration: none;
+}
+.mynav ul .active a
+{
+    color:#009ad8;
+    border:solid 2px #009ad8;
+    border-radius: 5rem;
+}
+
+.mynav li {
+margin-left: 10;
+}
+.mynav li a{
+    color: white;
+    padding:5 25;
+    border:solid 2px transparent;
+    border-radius: 5rem;
+    transition:all .4s ;
+}
+
+.mynav li a:hover
+{
+    color:#009ad8;
+    border:solid 2px #009ad8;
+    text-decoration: none;
+   
+}
+/*End Of NavbAr */
+
+/*Start Of Sec1 */
+.sec1
+{
+    height: 350;
+    background-image: url(../images/banner.png);
+    background-position:center center;
+    background-size: cover;
+}
+.sec1 .caption input
+{
+font-weight: 700;
+margin: 60 0 0 0;
+border: none;
+height: 50;
+padding: 0 20;
+color: #fff;
+}
+.sec1 .caption input:focus {
+    color: #495057;
+    font-weight: 700;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 2px 2px 17px 0px rgba(31,63,123,0.98) inset;
+    -webkit-box-shadow: 2px 2px 17px 0px rgba(31,63,123,0.98) inset;
+    -moz-box-shadow: 2px 2px 17px 0px rgba(31,63,123,0.98) inset;
+}
+
+.sec1 .caption button
+{
+    height: 40;
+    top:65;
+    right:5;
+    padding: 0 30;
+    color:white;
+    background-color: #009ad8;
+}
+/* End Of Section 1 */
+
+/* Start Of Section 2 */
+
+.sec2  .forecast-container
+{
+    margin-top: -150;
+    margin-bottom: 50;
+}
+.sec2 .forecast-container .one h3
+{
+    font-size: 5rem;
+}
+.sec2 .forecast-container .two .forcast-content ,.sec2 .forecast-container .three .forcast-content 
+{
+    margin-top: -20;
+}
+.sec2 .forecast-container .two 
+{
+    background-color: #20222e;
+}
+.sec2 .forecast-container .forcast-date
+{
+    background-color:rgba(0, 0, 0, .1);
+}
+
+/* End Of Section 2 */
+
+/* Footer */
+footer .caption input
+{
+border: none;
+height: 50;
+padding: 0 20;
+color:white;
+}
+footer .caption button
+{
+    height: 40;
+    top:5;
+    right:5;
+    padding: 0 30;
+    color:white;
+    background-color: #009ad8;
+}
+footer .icons .icon
+{
+    width: 40;
+    height: 40;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+footer .icons .icon:hover
+{
+  background-color: #009ad8 ;
+  color:white
+}
+
+
+/* Media Query */
+@media all and (max-width:992px)
+{
+    .navbar-toggler
+    {
+        transition: background-color .3s ;
+    }
+    .navbar-toggler:hover
+    {
+        background-color: #009ad8;
+    }
+    .mynav ul
+    {
+        background-color:#262936;
+        border-radius: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .mynav ul .active a
+    {
+        color:#009ad8;
+        border:none;
+    }
+    
+    .mynav li {
+    margin-left: 0;
+    width: 100%;
+    padding: 10 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+    }
+    
+    .mynav li a{
+        border:none;
+        border-radius: none;
+    }
+    
+    .mynav li a:hover
+    {
+        border:none;
+        text-decoration: none;
+    }
+}
