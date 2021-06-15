@@ -86,7 +86,7 @@ color: #fff;
     -moz-box-shadow: 2px 2px 17px 0px rgba(31,63,123,0.98) inset;
 }
 
-.sec1 .caption button
+/* .sec1 .caption button
 {
     height: 40;
     top:65;
@@ -94,14 +94,14 @@ color: #fff;
     padding: 0 30;
     color:white;
     background-color: #009ad8;
-}
+} */
 /* End Of Section 1 */
 
 /* Start Of Section 2 */
 
 .sec2  .forecast-container
 {
-    margin-top: -150;
+     margin-top: -170; 
     margin-bottom: 50;
 }
 .sec2 .forecast-container .one h3
@@ -120,7 +120,6 @@ color: #fff;
 {
     background-color:rgba(0, 0, 0, .1);
 }
-
 /* End Of Section 2 */
 
 /* Footer */
